@@ -1,0 +1,20 @@
+'editor':
+  'preferredLineLength': 145
+  'fontSize': 12
+'core':
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+  'themes': [
+    'atom-light-ui'
+    'fizzy'
+  ]
+  'disabledPackages': [
+  ]
+  'audioBeep': false
+'release-notes':
+  'viewedVersion': '0.85.0'
+'welcome':
+  'showOnStartup': false

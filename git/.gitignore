@@ -1,0 +1,5 @@
+.DS_Store
+.powrc
+node_modules
+.ruby-version
+.ruby-gemset

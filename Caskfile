@@ -1,0 +1,15 @@
+install brew-cask
+tap caskroom/versions
+
+cask install --force dropbox
+cask install --force google-chrome
+cask install --force iterm2
+cask install --force vlc
+cask install --force virtualbox
+cask install --force alfred
+cask install --force github
+cask install --force colloquy
+cask install --force skype
+cask install --force atom
+
+cask alfred link
