@@ -8,7 +8,6 @@ install redis
 install postgresql
 install postgis
 install mongodb
-install freetds
 install memcached
 install node
 install phantomjs
