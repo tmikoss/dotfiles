@@ -11,3 +11,6 @@ mkdir -p ~/Library/Application\ Support/Pow/Hosts
 ln -s ~/Library/Application\ Support/Pow/Hosts ~/.pow
 sudo pow --install-system
 pow --install-local
+
+# Slate config
+ln -sf ~/.dotfiles/others/.slate ~/.slate

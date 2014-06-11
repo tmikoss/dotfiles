@@ -11,5 +11,6 @@ cask install --force github
 cask install --force colloquy
 cask install --force skype
 cask install --force atom
+cask install --force slate
 
 cask alfred link

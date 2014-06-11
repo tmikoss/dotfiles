@@ -1,0 +1,8 @@
+config defaultToCurrentScreen true
+config nudgePercentOf screenSize
+config resizePercentOf screenSize
+
+bind right:alt    sequence throw 0 > push right bar-resize:screenSizeX/2
+bind left:alt     sequence throw 0 > push left  bar-resize:screenSizeX/2
+bind up:alt       throw 0 resize
+bind down:alt     throw 1 resize
