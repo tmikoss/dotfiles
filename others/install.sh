@@ -14,3 +14,4 @@ pow --install-local
 
 # Slate config
 ln -sf ~/.dotfiles/others/.slate ~/.slate
+ln -sf ~/.dotfiles/others/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
