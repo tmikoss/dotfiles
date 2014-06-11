@@ -12,5 +12,9 @@ cask install --force colloquy
 cask install --force skype
 cask install --force atom
 cask install --force slate
+cask install --force skitch
+cask install --force evernote
+cask install --force firefox
+cask install --force battery-time-remaining
 
 cask alfred link
