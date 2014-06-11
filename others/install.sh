@@ -6,7 +6,7 @@ ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
 # Autostart Memcached
 ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
 
-# Setu Pow
+# Setup Pow
 mkdir -p ~/Library/Application\ Support/Pow/Hosts
 ln -s ~/Library/Application\ Support/Pow/Hosts ~/.pow
 sudo pow --install-system

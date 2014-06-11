@@ -12,4 +12,6 @@ rbenv rehash
 
 rbenv global 2.1.1
 
+gem install bundler
+
 bundle config --global jobs 3

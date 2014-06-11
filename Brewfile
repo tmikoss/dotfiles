@@ -19,6 +19,7 @@ install pow
 install rbenv-default-gems
 install rbenv-gemset
 install rbenv-binstubs
+install rbenv-gem-rehash
 install zsh-completions
 
 cleanup
