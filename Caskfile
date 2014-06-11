@@ -1,5 +1,5 @@
+tap caskroom/cask
 install brew-cask
-tap caskroom/versions
 
 cask install --force dropbox
 cask install --force google-chrome
