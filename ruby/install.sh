@@ -5,6 +5,7 @@ echo 'Installing ruby'
 ln -sf ~/.dotfiles/ruby/.gemrc ~/.gemrc
 ln -sf ~/.dotfiles/ruby/.powconfig ~/.powconfig
 ln -sf ~/.dotfiles/ruby/default-gems ~/.rbenv/default-gems
+ln -sf ~/.dotfiles/ruby/.bash_profile ~/.bash_profile
 
 rbenv install 2.1.1
 

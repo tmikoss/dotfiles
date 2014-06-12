@@ -9,7 +9,6 @@ alias e="atom"
 alias b="bundle exec"
 alias r="rails"
 alias p="powder"
-alias ll="ls -a"
 alias rspec='nocorrect rspec'
 alias cap='nocorrect cap'
 alias npm='nocorrect npm'
