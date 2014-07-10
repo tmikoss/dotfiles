@@ -20,5 +20,6 @@ install rbenv-gemset
 install rbenv-binstubs
 install rbenv-gem-rehash
 install zsh-completions
+install zeromq
 
 cleanup
