@@ -17,5 +17,6 @@ cask install --force evernote
 cask install --force firefox
 cask install --force battery-time-remaining
 cask install --force pgadmin3
+cask install --force sequel-pro
 
 cask alfred link
