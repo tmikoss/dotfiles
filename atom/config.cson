@@ -17,7 +17,6 @@
   ]
   'audioBeep': false
   'projectHome': '/Users/tmikoss/code'
-  'useReactEditor': true
 'release-notes':
   'viewedVersion': '0.85.0'
 'welcome':
@@ -26,3 +25,4 @@
   'userId': '000e8f91-7c5a-ea4b-31cd-8fef2ae9d3e5'
 'whitespace':
   'ignoreWhitespaceOnCurrentLine': false
+'autocomplete-plus': {}
