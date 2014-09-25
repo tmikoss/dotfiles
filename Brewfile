@@ -23,5 +23,6 @@ install zsh-completions
 install zeromq
 install ssh-copy-id
 install mysql
+install python
 
 cleanup
