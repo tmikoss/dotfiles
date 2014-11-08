@@ -2,7 +2,6 @@
   'editor':
     'preferredLineLength': 145
     'fontSize': 12
-    'invisibles': {}
   'core':
     'ignoredNames': [
       '.git'
@@ -17,7 +16,6 @@
       'metrics'
       'welcome'
       'incompatible-packages'
-      'atom-beautify'
       'archive-view'
       'bookmarks'
       'dev-live-reload'
@@ -38,9 +36,4 @@
   'whitespace':
     'ignoreWhitespaceOnCurrentLine': false
   'atom-beautify': {}
-  'fuzzy-finder': {}
   'git-blame': {}
-  'markdown-preview': {}
-  'rspec': {}
-  'spell-check': {}
-  'tabs': {}

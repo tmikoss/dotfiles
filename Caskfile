@@ -6,9 +6,7 @@ cask install --force google-chrome
 cask install --force iterm2
 cask install --force vlc
 cask install --force virtualbox
-cask install --force alfred
 cask install --force github
-cask install --force colloquy
 cask install --force skype
 cask install --force atom
 cask install --force slate
@@ -18,5 +16,6 @@ cask install --force firefox
 cask install --force battery-time-remaining
 cask install --force toad-mac
 cask install --force sequel-pro
+cask install --force hipchat
 
 cask alfred link

@@ -20,7 +20,6 @@ install rbenv-gemset
 install rbenv-binstubs
 install rbenv-gem-rehash
 install zsh-completions
-install zeromq
 install ssh-copy-id
 install mysql
 install python
