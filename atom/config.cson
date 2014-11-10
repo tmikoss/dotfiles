@@ -2,6 +2,7 @@
   'editor':
     'preferredLineLength': 145
     'fontSize': 12
+    'invisibles': {}
   'core':
     'ignoredNames': [
       '.git'
@@ -35,5 +36,3 @@
     'userId': '000e8f91-7c5a-ea4b-31cd-8fef2ae9d3e5'
   'whitespace':
     'ignoreWhitespaceOnCurrentLine': false
-  'atom-beautify': {}
-  'git-blame': {}
