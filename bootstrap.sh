@@ -47,6 +47,7 @@ brew cask install --force firefox
 brew cask install --force toad
 brew cask install --force sequel-pro
 brew cask install --force hipchat
+brew cask install --force spotify
 
 brew cleanup
 
