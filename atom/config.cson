@@ -1,41 +1,42 @@
-'*':
-  'editor':
-    'fontSize': 12
-    'showIndentGuide': true
-    'preferredLineLength': 145
-    'invisibles': {}
-  'core':
-    'ignoredNames': [
-      '.git'
-      '.svn'
-      '.DS_Store'
+"*":
+  editor:
+    fontSize: 12
+    showIndentGuide: true
+    preferredLineLength: 145
+    invisibles: {}
+  core:
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
     ]
-    'disabledPackages': [
-      'metrics'
-      'welcome'
-      'incompatible-packages'
-      'archive-view'
-      'bookmarks'
-      'dev-live-reload'
-      'exception-reporting'
-      'feedback'
-      'image-view'
-      'link'
-      'package-generator'
+    disabledPackages: [
+      "metrics"
+      "welcome"
+      "incompatible-packages"
+      "archive-view"
+      "bookmarks"
+      "dev-live-reload"
+      "exception-reporting"
+      "feedback"
+      "image-view"
+      "link"
+      "package-generator"
+      "background-tips"
     ]
-    'themes': [
-      'atom-light-ui'
-      'fizzy'
+    themes: [
+      "atom-light-ui"
+      "fizzy"
     ]
-    'projectHome': '/Users/tmikoss/code'
-    'audioBeep': false
-  'release-notes':
-    'viewedVersion': '0.85.0'
-  'welcome':
-    'showOnStartup': false
-  'exception-reporting':
-    'userId': '000e8f91-7c5a-ea4b-31cd-8fef2ae9d3e5'
-  'whitespace':
-    'ignoreWhitespaceOnCurrentLine': false
-  'autocomplete-plus':
-    'confirmCompletion': 'enter'
+    projectHome: "/Users/tmikoss/code"
+    audioBeep: false
+  "release-notes":
+    viewedVersion: "0.85.0"
+  welcome:
+    showOnStartup: false
+  "exception-reporting":
+    userId: "000e8f91-7c5a-ea4b-31cd-8fef2ae9d3e5"
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "autocomplete-plus":
+    confirmCompletion: "enter"
