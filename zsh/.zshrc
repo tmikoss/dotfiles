@@ -26,3 +26,6 @@ export RUBY_GC_MALLOC_LIMIT=59000000
 export RUBY_HEAP_FREE_MIN=100000
 
 eval "$(rbenv init -)"
+
+export LC_ALL=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
