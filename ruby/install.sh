@@ -7,11 +7,11 @@ ln -sf ~/.dotfiles/ruby/.powconfig ~/.powconfig
 ln -sf ~/.dotfiles/ruby/default-gems ~/.rbenv/default-gems
 ln -sf ~/.dotfiles/ruby/.bash_profile ~/.bash_profile
 
-rbenv install 2.1.4
+rbenv install 2.2.2
 
 rbenv rehash
 
-rbenv global 2.1.4
+rbenv global 2.2.2
 
 gem install bundler
 

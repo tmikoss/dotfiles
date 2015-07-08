@@ -23,6 +23,12 @@
       "link"
       "package-generator"
       "background-tips"
+      "language-toml"
+      "language-php"
+      "language-perl"
+      "language-objective-c"
+      "language-java"
+      "language-csharp"
     ]
     themes: [
       "atom-light-ui"
@@ -40,3 +46,9 @@
     ignoreWhitespaceOnCurrentLine: false
   "autocomplete-plus":
     confirmCompletion: "enter"
+  "atom-pair":
+    slack_url: "https://hooks.slack.com/services/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"
+  linter:
+    subtleLinterErrors: [
+      "haml-lint"
+    ]

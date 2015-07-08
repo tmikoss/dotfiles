@@ -21,6 +21,7 @@ brew 'mysql'
 brew 'python'
 brew 'freetds'
 brew 'siege'
+brew 'maven'
 
 cask 'dropbox'
 cask 'google-chrome'
