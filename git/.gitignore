@@ -3,3 +3,4 @@
 node_modules
 .ruby-version
 .ruby-gemset
+.rbenv-gemsets
