@@ -3,10 +3,10 @@
 echo 'Installing Homebrew'
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-gem install brewdler
-
 brew update
 brew upgrade
+
+brew tap Homebrew/brewdler
 
 brewdle install
 

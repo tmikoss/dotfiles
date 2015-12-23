@@ -2,7 +2,7 @@
 
 echo 'Installing atom'
 
-apm install autocomplete-plus autocomplete-snippets coffee-lint fizzy git-blame language-haml language-rspec rails-latest-migration rspec
+apm install fizzy git-blame linter linter-ruby linter-coffeelint rails-latest-migration rspec atom-prettify ruby-slim react
 
 ln -sf ~/.dotfiles/atom/config.cson ~/.atom/config.cson
 ln -sf ~/.dotfiles/atom/keymap.cson ~/.atom/keymap.cson

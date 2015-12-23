@@ -60,9 +60,9 @@
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
   react: {}
-".js.jsx.source":
+".coffee.jsx.source":
   editor:
     preferredLineLength: 145
-".coffee.jsx.source":
+".js.jsx.source":
   editor:
     preferredLineLength: 145
