@@ -16,7 +16,7 @@ alias npm='nocorrect npm'
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-plugins=(git brew bundler)
+plugins=(git brew bundler mix-fast)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -29,3 +29,6 @@ eval "$(rbenv init -)"
 
 export LC_ALL=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
+
+export GOPATH=$HOME/code/go
+export PATH=$PATH:$GOPATH/bin
