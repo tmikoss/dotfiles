@@ -47,7 +47,6 @@
     useAlternateScoring: true
   jsonpp: {}
   linter:
-    showErrorPanel: false
     subtleLinterErrors: [
       "haml-lint"
     ]
