@@ -20,12 +20,13 @@ plugins=(git brew bundler mix-fast)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/heroku/bin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/heroku/bin
 export RUBY_GC_HEAP_INIT_SLOTS=600000
 export RUBY_GC_MALLOC_LIMIT=59000000
 export RUBY_HEAP_FREE_MIN=100000
 
 eval "$(rbenv init -)"
+export PATH=/usr/local/bin:$PATH # make homebrew bins take precedence over rbenv shims
 
 export LC_ALL=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8

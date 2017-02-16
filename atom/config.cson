@@ -3,6 +3,8 @@
     backspaceTriggersAutocomplete: true
     confirmCompletion: "enter"
     useAlternateScoring: true
+  autosave:
+    enabled: true
   core:
     audioBeep: false
     disabledPackages: [
@@ -25,6 +27,10 @@
       "language-java"
       "language-csharp"
       "jsonpp"
+      "symbols-view"
+      "language-todo"
+      "language-mustache"
+      "language-clojure"
     ]
     ignoredNames: [
       ".git"
@@ -58,7 +64,10 @@
   "release-notes":
     viewedVersion: "0.85.0"
   "tree-view":
+    autoReveal: true
+    hideIgnoredNames: true
     hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
   whitespace:
@@ -69,3 +78,6 @@
 ".js.jsx.source":
   editor:
     preferredLineLength: 145
+".text.todo":
+  editor:
+    showIndentGuide: false
