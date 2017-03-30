@@ -13,6 +13,7 @@ alias p="powder"
 alias rspec='nocorrect rspec'
 alias cap='nocorrect cap'
 alias npm='nocorrect npm'
+alias dc='docker-compose'
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 

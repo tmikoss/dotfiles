@@ -1,0 +1,25 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": true,
+    "editor.rulers": [
+        145
+    ],
+    "files.hotExit": "off",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "tmp": true,
+        "*.log": true,
+        "build/": true,
+        "coverage/": true
+    },
+    "typescript.check.tscVersion": false,
+    "window.zoomLevel": 0,
+    "workbench.welcome.enabled": false,
+    "workbench.colorTheme": "Default Light+"
+  }
