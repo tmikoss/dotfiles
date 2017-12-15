@@ -21,5 +21,32 @@
     "typescript.check.tscVersion": false,
     "window.zoomLevel": 0,
     "workbench.welcome.enabled": false,
-    "workbench.colorTheme": "Default Light+"
-  }
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "vs-seti",
+    "search.useIgnoreFilesByDefault": true,
+    "editor.renderWhitespace": "all",
+    "editor.autoIndent": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "cpp",
+        "csharp",
+        "go",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
+    "go.formatOnSave": true,
+    "go.lintOnSave": "off",
+    "extensions.ignoreRecommendations": false
+}

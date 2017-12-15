@@ -2,7 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
 
-export EDITOR="atom"
+export EDITOR="code"
 export ATOM_PATH=~/Applications
 
 # Aliases
@@ -34,3 +34,4 @@ export LC_CTYPE=en_US.UTF-8
 
 export GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
+export JRUBY_OPTS=--dev
