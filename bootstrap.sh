@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
 
 echo 'Installing Homebrew'
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+which brew || ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew update
 brew upgrade
 
-brew tap Homebrew/brewdler
-
-brewdle install
+brew bundle
 
 brew cleanup
 brew cask cleanup
