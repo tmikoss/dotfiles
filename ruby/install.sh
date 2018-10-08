@@ -3,15 +3,15 @@
 echo 'Installing ruby'
 
 ln -sf ~/.dotfiles/ruby/.gemrc ~/.gemrc
-ln -sf ~/.dotfiles/ruby/.powconfig ~/.powconfig
+mkrid -p ~/.rbenv
 ln -sf ~/.dotfiles/ruby/default-gems ~/.rbenv/default-gems
 ln -sf ~/.dotfiles/ruby/.bash_profile ~/.bash_profile
 
-rbenv install 2.2.2
+rbenv install 2.5.1
 
 rbenv rehash
 
-rbenv global 2.2.2
+rbenv global 2.5.1
 
 gem install bundler
 
