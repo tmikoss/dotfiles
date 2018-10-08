@@ -3,7 +3,7 @@
 echo 'Installing ruby'
 
 ln -sf ~/.dotfiles/ruby/.gemrc ~/.gemrc
-mkrid -p ~/.rbenv
+mkdir -p ~/.rbenv
 ln -sf ~/.dotfiles/ruby/default-gems ~/.rbenv/default-gems
 ln -sf ~/.dotfiles/ruby/.bash_profile ~/.bash_profile
 
