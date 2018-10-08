@@ -35,3 +35,6 @@ export LC_CTYPE=en_US.UTF-8
 export GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
 export JRUBY_OPTS=--dev
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"

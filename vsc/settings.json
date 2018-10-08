@@ -24,7 +24,7 @@
     "workbench.colorTheme": "Default Light+",
     "workbench.iconTheme": "vs-seti",
     "search.useIgnoreFilesByDefault": true,
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.autoIndent": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
@@ -48,5 +48,9 @@
     ],
     "go.formatOnSave": true,
     "go.lintOnSave": "off",
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "search.smartCase": true,
+    "editor.cursorBlinking": "smooth",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.minimap.enabled": false
 }
