@@ -1,0 +1,35 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+p",
+    "command": "workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "shift+alt+cmd+",
+    "command": "workbench.action.toggleMultiCursorModifier"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+down",
+    "command": "-cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "cursorColumnSelectUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+up",
+    "command": "-cursorColumnSelectUp",
+    "when": "textInputFocus"
+  }
+]
