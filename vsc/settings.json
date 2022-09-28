@@ -9,23 +9,20 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/.DS_Store": true,
-        "tmp": true,
         "*.log": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/node_modules/": true,
         "build/": true,
-        "coverage/": true
+        "coverage/": true,
+        "tmp": true
     },
-    "typescript.check.tscVersion": false,
-    "window.zoomLevel": 0,
-    "workbench.welcome.enabled": false,
     "workbench.colorTheme": "Default Light+",
     "workbench.iconTheme": "vs-seti",
-    "search.useIgnoreFilesByDefault": true,
     "editor.renderWhitespace": "boundary",
-    "editor.autoIndent": true,
+    "editor.autoIndent": "full",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "cSpell.enabledLanguageIds": [
@@ -46,11 +43,52 @@
         "typescriptreact",
         "yml"
     ],
-    "go.formatOnSave": true,
-    "go.lintOnSave": "off",
     "extensions.ignoreRecommendations": false,
     "search.smartCase": true,
     "editor.cursorBlinking": "smooth",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": true,
+    "editor.suggest.localityBonus": true,
+    "breadcrumbs.enabled": true,
+    "markdown-pdf.displayHeaderFooter": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terraform.telemetry.enabled": false,
+    "cSpell.enableFiletypes": [
+        "plaintext"
+    ],
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "vscode-graphql.showExecCodelens": false,
+    "html.format.contentUnformatted": "",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "eslint.packageManager": "yarn",
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "javascript.inlayHints.parameterNames.enabled": "literals",
+    "typescript.inlayHints.parameterNames.enabled": "literals",
+    "redhat.telemetry.enabled": false,
+    "editor.renderControlCharacters": true,
+    "editor.formatOnSaveMode": "modifications",
+    "gitlens.showWelcomeOnInstall": false,
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.currentLine.pullRequests.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.statusBar.pullRequests.enabled": false,
+    "gitlens.hovers.avatars": false,
+    "gitlens.hovers.pullRequests.enabled": false,
+    "gitlens.hovers.autolinks.enabled": false,
+    "gitlens.hovers.autolinks.enhanced": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "eslint.run": "onSave",
+    "gitlens.codeLens.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
 }

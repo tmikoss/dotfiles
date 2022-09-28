@@ -3,7 +3,6 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 export EDITOR="code"
-export ATOM_PATH=~/Applications
 
 # Aliases
 alias b="bundle exec"
@@ -19,20 +18,27 @@ plugins=(git brew bundler mix-fast)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/sbin:/usr/local/share/npm/bin
+export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/sbin:/usr/local/share/npm/bin
 export RUBY_GC_HEAP_INIT_SLOTS=600000
 export RUBY_GC_MALLOC_LIMIT=59000000
 export RUBY_HEAP_FREE_MIN=100000
 
-eval "$(rbenv init -)"
-export PATH=/usr/local/bin:$PATH # make homebrew bins take precedence over rbenv shims
-
 export LC_ALL=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
-
-export GOPATH=$HOME/code/go
-export PATH=$PATH:$GOPATH/bin
+export DOTNET_CLI_TELEMETRY_OPTOUT=true
 export JRUBY_OPTS=--dev
 
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
+
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/ # mysql2 gem
+
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+export EDITOR="code --wait"

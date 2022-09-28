@@ -1,6 +1,9 @@
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/
 .DS_Store
-.powrc
-node_modules
 .ruby-version
-.ruby-gemset
-.rbenv-gemsets
+*.pg_dump
