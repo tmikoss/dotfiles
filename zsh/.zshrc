@@ -22,6 +22,7 @@ export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr
 export RUBY_GC_HEAP_INIT_SLOTS=600000
 export RUBY_GC_MALLOC_LIMIT=59000000
 export RUBY_HEAP_FREE_MIN=100000
+export HOMEBREW_NO_AUTO_UPDATE=1
 
 export LC_ALL=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
