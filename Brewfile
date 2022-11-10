@@ -1,4 +1,3 @@
-tap "heroku/brew"
 tap "homebrew/brewdler"
 tap "homebrew/cask"
 tap "homebrew/core"
