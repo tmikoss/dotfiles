@@ -1,6 +1,6 @@
 [user]
 	name = Toms Mikoss
-	email = toms.mikoss@gmail.com
+	email = toms.mikoss@mitigate.dev
 [core]
 	excludesfile = /Users/tmikoss/.gitignore
 	attributesfile = /Users/tmikoss/.gitattributes

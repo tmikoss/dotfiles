@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo 'Installing Homebrew'
-which brew || ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+which brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew update
 brew upgrade
@@ -9,6 +9,5 @@ brew upgrade
 brew bundle
 
 brew cleanup
-brew cask cleanup
 
 find ~/.dotfiles -maxdepth 2 -name 'install.sh' | while read installer ; do sh -c "${installer}" ; done
